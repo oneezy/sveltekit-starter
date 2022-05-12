@@ -6,8 +6,12 @@
 	import { mediaQuery } from '$stores/media';
 	import { screenH, scrollY, scrollDir, scrollUp, scrollDown, scrollTop, scrollBottom } from '$stores/device.js';
   import { page } from '$app/stores';
-  import Device from '$lib/Device.svelte';
+  import Device from '$lib/utils/Device.svelte';
+  import Scrollbar from '$lib/Scrollbar.svelte';
   import '../app.css';
+  
+	const sm = mediaQuery('(min-width: 0px) and (max-width: 767px)');
+	const md = mediaQuery('(min-width: 0px) and (max-width: 1024px)');
 </script>
 
 
@@ -23,8 +27,15 @@
   <meta property="og:site_name" content="{SITE_TITLE}" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
+  <!--   
+  <meta property="fb:app_id" content="{FB_ID}" />
+  <meta property="fb:admins" content="{FB_ADMINS}" /> -->
 </svelte:head>
 
-<Device /> 
+<Device />
+
+{#if !$md}
+  <Scrollbar />
+{/if}
 
 <slot />

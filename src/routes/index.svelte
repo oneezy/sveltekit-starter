@@ -21,4 +21,13 @@
     <h1 class="text-black text-4xl font-bold">{SITE_TITLE}</h1>
     <p class="text-slate-500">{SITE_DESCRIPTION}</p>
   </div>
+
+  <div class="mt-8">
+    <h1 class="font-sans">sans</h1>
+    <h1 class="font-serif">serif</h1>
+    <h1 class="font-mono">mono</h1>
+    
+    <h1 class="font-display">display</h1>
+    <h1 class="font-body">body</h1>
+  </div>
 </div>

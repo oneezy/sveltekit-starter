@@ -1,6 +1,6 @@
 <a href="/" class="bg-white text-black h-20 w-20 relative z-20">go back</a>
 
-
+<h1>Oops...</h1>
 
 <slot />
 

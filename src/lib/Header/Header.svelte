@@ -1,7 +1,7 @@
 <script>
 	import { fade, fly } from 'svelte/transition';
 	import { screenH, scrollY, scrollDir, scrollUp, scrollDown, scrollTop, scrollBottom } from '$stores/device.js';
-	import Device from '../Device.svelte';
+  import Device from '$lib/utils/Device.svelte';
 	let CLASS; 
 	export { CLASS as class };
 	
