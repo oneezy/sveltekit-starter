@@ -1,6 +1,7 @@
 <script context="module">
 	import { SITE_TITLE, SITE_SEPARATOR, SITE_AUTHOR, SITE_DESCRIPTION } from '$data/meta.js';
   import Social from '$lib/Social.svelte';
+  import Theme from '$lib/Theme.svelte';
 </script>
 
 <script>
@@ -17,10 +18,13 @@
 </svelte:head>
 
 <div class="h-screen container flex flex-col items-center justify-center prose">
-  <img src="/logo.svg" alt="Logo">
+  <img class="dark:invert" src="/logo.svg" alt="Logo">
   <div class="not-prose flex flex-col items-center justify-center gap-2">
-    <h1 class="text-black text-4xl font-bold">{SITE_TITLE}</h1>
-    <p class="text-slate-500">{SITE_DESCRIPTION}</p>
+    <h1 class="text-black dark:text-white text-4xl font-bold">{SITE_TITLE}</h1>
+    <p class="text-slate-500 dark:text-slate-400">{SITE_DESCRIPTION}</p>
   </div>
-  <Social />
+  <div class="flex items-center justify-center gap-2">
+    <Social />
+    <Theme />
+  </div>
 </div>

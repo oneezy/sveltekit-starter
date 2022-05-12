@@ -1,5 +1,4 @@
 <script>
-	import { onMount } from 'svelte';
 	import { socials } from '$data/socials.js';
 </script>
 
