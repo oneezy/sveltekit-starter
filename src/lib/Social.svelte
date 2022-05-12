@@ -1,12 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
-
-	let socials = [];
-
-	onMount(async () => {
-		const res = await fetch(`https://opensheet.elk.sh/1822epRj2XCFzLaYxvEIGVkPfF8qYdAbAqWv4bnqUP8A/Social`);
-		socials = await res.json();
-	});
+	import { socials } from '$data/socials.js';
 </script>
 
 <div class="socials flex items-center justify-center gap-2">

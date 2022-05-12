@@ -8,6 +8,7 @@
   import { page } from '$app/stores';
   import Device from '$lib/utils/Device.svelte';
   import Scrollbar from '$lib/Scrollbar.svelte';
+  // import Social from '$lib/Social.svelte';
   import '../app.css';
   
 	const sm = mediaQuery('(min-width: 0px) and (max-width: 767px)');
@@ -39,3 +40,8 @@
 {/if}
 
 <slot />
+
+<!-- 
+<footer class="container mx-auto p-4 md:p-8">
+  <Social />
+</footer> -->

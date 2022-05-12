@@ -1,11 +1,8 @@
 <script>
   import { page } from '$app/stores';
-	import { scrollUp, scrollDown } from '$stores/device.js';
 
   export let menu = [
     { label: 'home', href: '/'},
-    { label: 'portfolio', href: '/portfolio'},
-    { label: 'experience', href: '/experience'},
     { label: 'contact', href: '/contact'}
   ];
   
@@ -20,11 +17,7 @@
         {$page.url.pathname === link.href ? 'active bg-black text-white dark:bg-white dark:text-black' : 'text-black dark:text-white'}"
         
         sveltekit:prefetch>
-        <!-- sveltekit:noscroll> -->
         {link.label}
     </a>
   {/each}
 </nav>
-
-
-<!-- {$page.url.pathname === link.href ? 'bg-black text-white dark:bg-white dark:text-black' : 'text-black dark:text-white'}" -->
