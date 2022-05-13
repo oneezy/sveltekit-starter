@@ -105,3 +105,4 @@ dist
 
 # Oneezy added...
 .svelte-kit
+static/resources
