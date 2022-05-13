@@ -14,7 +14,7 @@
             "type": "image/png"
         },
         {
-          "src": "/images/manifest/maskable-icon-black.png",
+          "src": "/images/manifest/maskable-icon-mono.png",
           "sizes": "512x512",
           "type": "image/png",
           "purpose": "any maskable"
