@@ -18,7 +18,7 @@ const config = {
 					css: {
 						'--tw-prose-bullets': theme('colors.black'),
 						blockquote: {
-							borderLeft: '3px solid red',
+							borderLeft: '3px solid inherit',
 							fontSize: 'inherit',
 							fontStyle: 'inherit',
 							fontWeight: 'medium'
@@ -38,17 +38,19 @@ const config = {
 							borderWidth: '2px',
 							borderColor: 'rgba(0,0,0,0.1)'
 						},
-						'a:hover': {
-							color: '#31cdce !important',
-							textDecoration: 'underline !important'
-						},
-						a: {
-							color: '#3182ce',
-							textDecoration: 'none'
-						},
-						'a code': {
-							color: 'unset'
-						},
+
+						// 'a:hover': {
+						// 	color: '#31cdce !important',
+						// 	textDecoration: 'underline !important'
+						// },
+						// a: {
+						// 	color: '#3182ce',
+						// 	textDecoration: 'none'
+						// },
+						// 'a code': {
+						// 	color: 'unset'
+						// },
+
 						'li, ul, ol': {
 							margin: 0
 						},

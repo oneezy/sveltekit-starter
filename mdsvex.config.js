@@ -8,11 +8,14 @@ const config = defineConfig({
 	},
 
 	remarkPlugins: [],
+
 	rehypePlugins: [],
   
 	layout: {
-		blog: "./src/lib/Blog.svelte",
-		// article: "./path/to/article/layout.svelte"
+		_: "./src/routes/blog/_blog.svelte",
+		blog: "./src/routes/blog/_blog.svelte",
+		// docs: "./src/routes/docs/_docs.svelte",
+		// shop: "./src/routes/shop/_shop.svelte",
 	}
 });
 

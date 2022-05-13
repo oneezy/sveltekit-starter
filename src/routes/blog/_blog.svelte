@@ -10,6 +10,6 @@
   </section>
 </div>
 
-<article class="container mx-auto prose md:prose-xl dark:prose-invert mt-8 mb-48">
+<article class="container prose md:prose-xl dark:prose-invert mt-8 mb-48">
   <slot />
 </article>
