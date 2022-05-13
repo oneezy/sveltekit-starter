@@ -37,13 +37,13 @@
   {#if isDark}
     <img in:scale="{{ duration: 400, start: 0, end: 1, opacity: 1 }}"  
          class="absolute sun invert" 
-         src="/icons/sun.svg" 
+         src="/images/icons/sun.svg" 
          alt="Light Mode" />
 
   {:else}
     <img in:fly="{{ y: 20, duration: 400 }}" 
          class="absolute moon" 
-         src="/icons/moon.svg" 
+         src="/images/icons/moon.svg" 
          alt="Dark Mode" />
   {/if}
 </button>

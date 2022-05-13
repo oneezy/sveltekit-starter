@@ -34,7 +34,7 @@
         class="{CLASS || ''} flex items-center justify-center h-9 w-9 relative z-10" 
         aria-label="Menu Button" 
         aria-live="polite">
-        <img class="absolute dark:invert" src="icons/menu-2.svg" alt="Menu Buton" />
+        <img class="absolute dark:invert" src="images/icons/menu-2.svg" alt="Menu Buton" />
 </button>
 
 
@@ -44,7 +44,7 @@
               class="{CLASS || ''} flex items-center justify-center h-9 w-9 z-10 absolute right-10 top-6" 
               aria-label="Close Button" 
               aria-live="polite">
-          <img class="absolute dark:invert" src="icons/close.svg" alt="Close Buton" />
+          <img class="absolute dark:invert" src="images/icons/close.svg" alt="Close Buton" />
       </button>
       <section in:fly={{ x: 40, delay: 120 }}>
         <Icon class="h-20" />
