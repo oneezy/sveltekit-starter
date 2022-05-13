@@ -14,7 +14,7 @@ A starting point for Svelte apps
   - saves with localstorage
   - prefers color-scheme support
 - Markdown w/ MDSveX (via svelte-add)
-- PWA Installable App
+- PWA Installable App (100% Lighthouse Pass)
 - Social Icons
 - Custom Scrollbar [(svrollbar)](https://github.com/daylilyfield/svrollbar#readme)
 - Custom 404 Pages
@@ -59,12 +59,7 @@ pnpm dev
 - [ ] Opengraph and metatags (auto generated)
 
 **PWA Optimized**
-- [x] PWA Installable
-- [x] Service Worker
-  - [ ] Make button to install
-- [x] Manifest
-  - [ ] Add `apple-touch-icon`
-  - [ ] Add maskable icon
+- [ ] Make button to install PWA instead of relying on default
 
 **MDSveX**
 - [ ] Rehype Plugins [(for html)](https://github.com/rehypejs/rehype/blob/main/doc/plugins.md#list-of-plugins)
