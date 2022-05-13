@@ -12,7 +12,9 @@ A starting point for Svelte apps
   - Swyx Fixes
 - Dark Mode 
   - saves with localstorage
+  - prefers color-scheme support
 - Markdown w/ MDSveX (via svelte-add)
+- PWA Installable App
 - Social Icons
 - Custom Scrollbar [(svrollbar)](https://github.com/daylilyfield/svrollbar#readme)
 - Custom 404 Pages
@@ -24,17 +26,6 @@ A starting point for Svelte apps
 npx degit https://github.com/oneezy/sveltekit-starter my-app
 pnpm i
 pnpm dev
-```
-
-**Default Data**
-
-```js
-// ./src/data/meta.js
-export const SITE_URL = 'https://mywebsite.com';
-export const SITE_TITLE = 'Sveltekit Starter';
-export const SITE_AUTHOR = "Justin O'Neill"
-export const SITE_SEPARATOR = '|';
-export const SITE_DESCRIPTION = "A starting point for Svelte apps";
 ```
 
 ## Todo Considerations *(brain vomit)*
@@ -67,10 +58,13 @@ export const SITE_DESCRIPTION = "A starting point for Svelte apps";
 - [ ] Top level URLs `/blog-post` instead of `/blog/blog-post`
 - [ ] Opengraph and metatags (auto generated)
 
-**Mobile**
-- [ ] PWA Installable
-- [ ] Service Worker
-- [ ] Manifest
+**PWA Optimized**
+- [x] PWA Installable
+- [x] Service Worker
+  - [ ] Make button to install
+- [x] Manifest
+  - [ ] Add `apple-touch-icon`
+  - [ ] Add maskable icon
 
 **MDSveX**
 - [ ] Rehype Plugins [(for html)](https://github.com/rehypejs/rehype/blob/main/doc/plugins.md#list-of-plugins)
