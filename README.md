@@ -6,15 +6,17 @@ A starting point for Svelte apps
 ## Features
 
 - SvelteKit
-- Tailwind 3 (via svelte-add)
+- Tailwind 3 `svelte-add`
   - Tailwind Typography
   - Custom Fonts
   - Swyx Fixes
 - Dark Mode 
   - saves with localstorage
   - prefers color-scheme support
-- Markdown w/ MDSveX (via svelte-add)
-- PWA Installable App (100% Lighthouse Pass)
+- Markdown [(mdsvex)](https://mdsvex.com/) `svelte-add`
+  - Rehype Plugin Support [(for html)](https://github.com/rehypejs/rehype/blob/main/doc/plugins.md#list-of-plugins)
+  - Remark Plugin Support [(for markdown)](https://github.com/remarkjs/remark/blob/main/doc/plugins.md#list-of-plugins)
+- PWA Installable App (100% Lighthouse Score)
 - Social Icons
 - Custom Scrollbar [(svrollbar)](https://github.com/daylilyfield/svrollbar#readme)
 - Custom 404 Pages
@@ -49,12 +51,12 @@ pnpm dev
   - [ ] Tradingview Scripts 
 
 **SEO**
-- [ ] Sitemap
 - [ ] Canonical Links
+- [ ] Sitemap
 - [ ] Robots.txt
 - [ ] Humans.txt
 - [ ] RSS Feed
-- [ ] JSON-LD
+- [ ] LD+JSON
 - [ ] Top level URLs `/blog-post` instead of `/blog/blog-post`
 - [ ] Opengraph and metatags (auto generated)
 

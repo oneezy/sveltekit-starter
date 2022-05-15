@@ -14,6 +14,7 @@ const config = defineConfig({
 	layout: {
 		_: "./src/routes/blog/_blog.svelte",
 		blog: "./src/routes/blog/_blog.svelte",
+		// pages: "./src/routes/pages/_pages.svelte",
 		// docs: "./src/routes/docs/_docs.svelte",
 		// shop: "./src/routes/shop/_shop.svelte",
 	}
